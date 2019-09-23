@@ -1,0 +1,38 @@
+/** No CSS for this example */
+.dropdown-caret {
+    position: absolute;
+    top: -8px;
+    left: 70px;
+    width: 18px;
+    height: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-caret .caret-outer {
+    border-bottom: 0 solid #ffffff;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: auto;
+    left: 0;
+    top: 0;
+    width: auto;
+}
+
+.dropdown-caret .caret-inner {
+    top: 1px;
+    left: 1px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+    border-bottom-color: #fff;
+}
+
+.dropdown-caret .caret-outer, .dropdown-caret .caret-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    margin-left: -1px;
+}
